@@ -27,7 +27,7 @@ steps:
     #zipAfterPublish: true # Optional
     #modifyOutputPath: true # Optional
     feedsToUse: 'select' # Options: select, config
-    #vstsFeed: true # Required when feedsToUse == Select
+    vstsFeed: 'GoodFeed' # Required when feedsToUse == Select
     includeNuGetOrg: false # Required when feedsToUse == Select
     #nugetConfigPath: # Required when feedsToUse == Config
     #externalFeedCredentials: # Optional
