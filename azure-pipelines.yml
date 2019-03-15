@@ -12,7 +12,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet restore -s https://pkgs.dev.azure.com/karannandwani/_packaging/GoodFeed/nuget/v3/index.json
+#- script: dotnet restore -s https://pkgs.dev.azure.com/karannandwani/_packaging/GoodFeed/nuget/v3/index.json
 
 # .NET Core
 # Build, test, package, or publish a dotnet application, or run a custom dotnet command. For package commands, supports NuGet.org and authenticated feeds like Package Management and MyGet.
