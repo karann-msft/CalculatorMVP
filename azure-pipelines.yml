@@ -12,5 +12,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
+- script: dotnet restore -s https://apidev.nugettest.org/v3/index.json
+
+- script: dotnet build --configuration $(buildConfiguration) --no-restore
   displayName: 'dotnet build $(buildConfiguration)'
